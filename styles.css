@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  /* width: 100%; */
+}
+
+h1 {
+  line-height: 1.5;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #EF4323;
+}
+p {
+  text-align: left;
+  line-height: 2;
+  font-size: 0.9rem;
+  text-align: justify;
+
+}
+
+h4 {
+  font-weight: 600;
+}
+.dotted{
+  border: 10px dotted #EF4323;
+  border-style: dotted none none none;
+  width: 10%;
+
+}
+
+.btn{
+  width: 300px;
+  height: 50px;
+  border-radius: 5%;
+  border-style: solid;
+  align-self: center;
+  background-color: #EF4323;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  border-color: white;
+}
+.anchor-btn:hover{
+  color: white;
+}
+
+
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 1rem 3rem 0 3rem;
+}
+
+.nav-links {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.bg-rect {
+  width: 100%;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  font-size: 1.5rem;
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+i{
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+#investment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem 3rem 0 3rem;
+}
+
+.private-mng, .dhedge {
+  width: 80%;
+  text-align: center;
+}
+
+.dhedge {
+  padding: 6rem 0 1rem 4rem;
+  align-items: flex-end;
+}
+
+.private-mng {
+  padding-left: 6rem;
+}
+
+
+
+.product-p {
+  padding-top: 2rem;
+
+}
+
+.product-head {
+  font-size: 2rem;
+}
+
+.dhedge-p, .private-p {
+  padding-top: 1.5rem;
+
+}
+
+.divider-rect {
+  width: 100%;
+}
+
+.approach-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding-left: 5rem;
+}
+.market,.fundamental,.technical{
+  width: 80%;
+}
+
+.approach-head, .team-head{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.approach-img{
+  width: 70%;
+}
+
+.slanted{
+  position: relative;
+
+  width: auto;
+  height: 550px;
+  background-color: grey;
+
+  transform-origin: left bottom;
+  transform: skewy(3deg);
+opacity: 10%;
+}
+
+.slanted-1{
+  position: relative;
+  height: 45vh;
+  width: auto;
+  background-color:#EF4323;
+  transform-origin: left bottom;
+  transform: skewY(2deg);
+}
+.banner-head{
+  position: absolute;
+  font-size: 3.5rem;
+  text-align: center;
+  bottom: 14rem;
+  left: 17rem;
+
+}
+span{
+  color: white;
+}
+
+.about-text{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 5rem 0 5rem;
+}
+#about-us{
+  position: absolute;
+  top:135rem;
+}
+
+.about{
+  font-size: 2rem;
+}
+.about-img{
+  width: 90%;
+  padding-left: 5rem;
+}
+
+.footer{
+  width: auto;
+  height: 10vh;
+  background-color: #EF4323;
+  border: none;
+
+}
+.footer-p{
+  text-align: center;
+  padding-top: 2.2rem;
+
+}
+
+.team-members{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 6rem 0 12rem 6rem;
+}
+.team-img,.team-img1{
+  width: 60%;
+
+}
+.team-head{
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+
+.invest-head{
+  text-align: center;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (min-width:300px) and (max-width:900px) {
+
+
+  .logo {
+    height: 50px ;
+  }
+  .bg-rect {
+    width: 100%;
+    transform: scale(1.5);
+    padding-top: 1rem;
+  }
+
+  h4 {
+    font-size: 11px  ;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+
+  h3{
+    font-size: 0.8rem;
+  }
+
+  .nav-links {
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr 3fr  ;
+  }
+
+  .navbar {
+    padding: 1rem 2rem 0 1rem ;
+    grid-template-columns: 1fr 3fr  ;
+  }
+
+
+  .slanted-1{
+    position: relative;
+    top:1rem;
+    height: 85vh;
+    width: auto;
+    background-color:#EF4323;
+
+  }
+  .banner-head{
+    position: absolute;
+    font-size: 3.5rem;
+    text-align: center;
+    bottom: 6rem;
+    left: 0.1rem;
+    font-weight: 900;
+    line-height: 1.5;
+
+  }
+
+
+
+
+
+
+  #investment {
+    display: block;
+    text-align: center;
+  }
+  .approach-grid,#approach{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+
+  }
+
+
+
+  .product-p, p {
+    line-height: 2;
+    text-align: justify;
+  }
+
+  .private-mng, .dhedge {
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .product-head {
+    font-size: 1.5rem;
+  }
+  .private-mng, .dhedge {
+
+    text-align: center;
+    padding: 4rem 0 0 0;
+  }
+  .private-img,.dhedge-img{
+    width: 70%;
+  }
+  .approach-head{
+    font-size: 1.5rem;
+
+  }
+  .approach-img{
+    width: 40%;
+  }
+
+  .market,.fundamental,.technical{
+
+    width: 100%;
+    padding-top:1rem;
+
+  }
+  .about-text{
+    display: inline-block;
+
+
+  }
+  #about-us{
+
+    top:240rem;
+    text-align: center;
+
+
+  }
+  .slanted{
+    height: 1000px;
+  }
+  .about{
+    font-size: 1.5rem;
+  }
+  .about-p{
+    line-height: 2;
+    text-align: justify;
+    padding: 0;
+    width: 100%;
+
+  }
+  .about-img{
+    position: relative;
+    right: 6rem;
+    width: 100%;
+
+
+  }
+  .footer-p{
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+  }
+
+.team-members{
+  display: inline-block;
+}
+
+.team-img{
+  width: 50%;
+  padding: 0 0 5rem 3rem;
+}
+.team-img1{
+  width: 50%;
+  padding: 2rem 0 0 3rem;
+}
+.icon-bar{
+  font-size: 1rem;
+}
+
+}
