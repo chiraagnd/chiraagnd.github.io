@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
-  /* width: 100%; */
+  max-width:1320px;
 }
 
 h1 {
