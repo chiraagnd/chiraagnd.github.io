@@ -269,7 +269,7 @@ span{
   .slanted-1{
     position: relative;
     top:1rem;
-    height: 60vh;
+    height: 65vh;
     width: auto;
     background-color:#EF4323;
 
@@ -278,7 +278,7 @@ span{
     position: absolute;
     font-size: 3rem;
     text-align: center;
-    bottom: 10rem;
+    bottom: 12rem;
     left: 0.1rem;
     font-weight: 900;
     line-height: 1.5;
@@ -346,7 +346,7 @@ span{
   }
   #about-us{
 
-    top:240rem;
+    top:260rem;
     text-align: center;
 
 
