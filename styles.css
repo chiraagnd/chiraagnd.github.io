@@ -153,7 +153,7 @@ i{
   position: relative;
 
   width: auto;
-  height: 550px;
+  height: 80vh;
   background-color: grey;
 
   transform-origin: left bottom;
@@ -184,7 +184,7 @@ span{
 .about-text{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 5rem 0 5rem;
+  padding: 0 2rem 0 2rem;
 }
 #about-us{
   position: absolute;
@@ -352,7 +352,7 @@ span{
 
   }
   .slanted{
-    height: 1000px;
+    height: 140vh;
   }
   .about{
     font-size: 1.5rem;
